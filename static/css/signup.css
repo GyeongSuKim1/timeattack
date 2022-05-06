@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.all_content {
+    background: white;
+    max-width: 350px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 3%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% auto;
+    padding: 20px;
+}
+
+.user_login {
+    width: 300px;
+    margin: 40px auto 0px auto;
+    padding: 20px;
+    text-align: center;
+    border: none;
+}
+
+.user_text {
+    padding: 10px;
+    border: none;
+    width: 260px;
+    margin-bottom: 10px;
+    border-radius: 2%;
+    border: 1px solid black;
+}
+
+.user-login_btn {
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    width: 180px;
+    background-color: skyblue;
+    color: white;
+    height: auto;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
