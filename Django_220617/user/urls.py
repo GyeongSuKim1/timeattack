@@ -3,5 +3,5 @@ from django.urls import path, include
 from user import views
 
 urlpatterns = [
-    path('', include('user.urls')),
+    path('', views.UserAPIView.as_view()),
 ]
